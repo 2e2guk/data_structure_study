@@ -4,7 +4,7 @@
 #include <queue>
 struct node // node  구조체. data를 담는 부분과, 이진 트리이므로 두 개의 자식 노드를 갖는다고 가정한다. 
 {
-    std::string data;
+    std::string data;// std::stirng 으로 선언함으로써, 숫자도 문자열처럼 처리할 수 있다.
     node* first;
     node* second;
 };
