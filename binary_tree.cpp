@@ -61,7 +61,8 @@ int main()
     tree.add_node("대대본부 중대장", "행정보급관");
     tree.add_node("행정보급관", "고려생활관");
     tree.add_node("행정보급관", "발해생활관");
-    tree.add_node("행정보급관", "백제생활관");
+    tree.add_node("행정보급관", "백제생활관"); // 추가 불가능한 경우.
+    tree.add_node("백제생활관", "상병 문석호"); // 추가 불가능한 경우.
     tree.add_node("고려생활관", "일병 이강욱");
     tree.add_node("고려생활관", "일병 임시현");
     tree.add_node("발해생활관", "일병 정민영");
