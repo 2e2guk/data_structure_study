@@ -23,7 +23,6 @@ void DFS_stack(vector<vector<int>> graph, bool *visit, int start) // 스택을 �
             {
                 cout << next << " ";
                 visit[next] = true;
-                stack.push(current_vertex);
                 stack.push(next);
                 break;
             }
